@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Project2</string>
+    <string name="text_main_test_layout">Teamfight Tactics (TFT) is an auto battler game developed and published by Riot Games. The game takes place in the League of Legends universe and is based on Dota Auto Chess, where players compete online against seven other opponents by building a team to be the last one standing. The game released for Microsoft Windows and macOS in June 2019 and for Android and iOS in March 2020, featuring full cross-platform play between them.</string>
+    <string name="text_bottom_test_layout">START PLAYING</string>
+    <string name="test_tiltle_test_layout">Teamfights Tactics</string>
+    <string name="text_author_test_layout">T.Giang</string>
+    <string name="view">view</string>
+</resources>

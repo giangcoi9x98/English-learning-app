@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+         android:layout_marginTop="@dimen/space_meidum"
+        android:layout_marginStart="@dimen/space_meidum"
+        android:layout_marginEnd="@dimen/space_meidum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cv_categoty"
+        android:background="#00BCD4">
+
+        <RelativeLayout
+             android:paddingTop="@dimen/space_large"
+            android:paddingStart="@dimen/space_large"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/tv_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Category"
+                android:textColor="#FFFF"
+                android:textSize="@dimen/text_large" />
+
+            <TextView
+                android:paddingBottom="@dimen/space_meidum"
+                android:textAlignment="textStart"
+                android:id="@+id/tv_topics"
+                android:layout_toStartOf="@id/iv_arrow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_category"
+                android:text="TopicModel{id=1,name='Contracts'}{TopicModel{id=1,name='Contracts'} TopicModel{id=1,name='Contracts'}  "
+                android:textColor="@color/textTransparent" />
+
+            <ImageView
+                android:padding="@dimen/space_meidum"
+                android:src="@drawable/ic_keyboard_arrow_down_black_24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/iv_arrow"
+                android:layout_alignBottom="@id/tv_topics"
+                android:layout_alignParentEnd="true" />
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
